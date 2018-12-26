@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Calculator</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="calc_style.css">
+  </head>
+  <body>
+           <h1 align="center">Calculator</h1>
+      <div class="box">
+          <input type="text" id="expression" value="">
+          <button onclick="clearr()" class="cle">CLEAR</button>
+          <table>
+              <tr>
+                <td><button class="btn" onclick="num(7)" value="7">7</button></td>
+                <td><button class="btn" onclick="num(8)">8</button></td>
+                <td><button  class="btn" onclick="num(9)">9</button></td>
+                <td><button class="btn" onclick="division()">/</button></td> 
+
+                
+              </tr>
+              <tr>
+                  <td><button class="btn" onclick="num(4)">4</button></td>
+                  <td><button class="btn" onclick="num(5)">5</button></td>
+                  <td><button class="btn" onclick="num(6)">6</button></td>
+                  <td><button class="btn" onclick="multiplication()">*</button></td> 
+  
+                
+              </tr>
+              <tr>
+
+                  <td><button class="btn" onclick="num(1)">1</button></td>
+                  <td><button class="btn" onclick="num(2)">2</button></td>
+                  <td><button class="btn" onclick="num(3)">3</button></td>
+                  <td><button class="btn" onclick="sub()">-</button></td> 
+                  
+                
+              </tr>
+              <tr>
+                  <td><button class="btn" onclick="num(0)">0</button></td>
+                  <td><button class="btn" onclick="point()">.</button></td>
+                  <td><button class="btn" onclick="ans()">=</button></td>
+                  <td><button class="btn" onclick="add()">+</button></td> 
+                  
+
+              </tr>
+          </table>
+          <script type="text/javascript" src="calc_functions.js"></script>
+      </div>
+
+  </body>
+</html>
